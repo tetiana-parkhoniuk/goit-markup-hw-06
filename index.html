@@ -419,6 +419,19 @@
                     </li>
                 </ul>
            </div>
+           <div class="footer-form-wrapper">
+               <strong class="call-to-action">Подпишитесь на рассылку</strong>
+               <form action="#" class="footer-form">
+                   <input type="email" name="user-email" class="footer-form-field" placeholder="E-mail">
+                   <button type="submit" class="footer-form-submit-btn">
+                       Подписаться
+                    <svg class="footer-form-btn-icon" width="24px" height="24px">
+                        <use href="./images/sprite.svg#send"></use>
+                    </svg>
+                    </button>
+               </form>
+
+           </div>
         </div>
     </footer>
 
@@ -463,17 +476,20 @@
                 </label>
                 <label class="modal-form-field">
                     Комментарий
-                    <textarea class="modal-form-comment" name="user-comment" 
-                    placeholder="Введите текст"></textarea>
+                    <textarea 
+                        class="modal-form-comment" 
+                        name="user-comment" 
+                        placeholder="Введите текст">
+                    </textarea>
                 </label>
-                <input type="checkbox" name="user-policy" value="policy-accepted" 
-                id="user-policy" class="modal-form-policy">
+                <input type="checkbox" name="user-policy" value="policy-accepted" id="user-policy"
+                    class="modal-form-policy visually-hidden">
                 <label for="user-policy" class="modal-form-policy-text">
-                    Соглашаюсь с рассылкой и принимаю 
-                    <a href="">Условия договора
+                    Соглашаюсь с рассылкой и принимаю &nbsp
+                    <a class="modal-policy-link" href="">Условия договора
                     </a>
                 </label>
-                <button type="submit" class="modal-form-btn">
+                <button type="submit" class="modal-submit-btn">
                     Отправить
                 </button>
             </form>
