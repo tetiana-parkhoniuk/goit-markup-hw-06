@@ -125,7 +125,7 @@ p {
 }
 
 .socials-link-icon {
-  transition: fill 2000ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .socials-link:hover .socials-link-icon,
